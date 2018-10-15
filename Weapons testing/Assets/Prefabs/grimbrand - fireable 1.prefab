@@ -9,46 +9,75 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1917347206165364}
+  m_RootGameObject: {fileID: 1552146008549096}
   m_IsPrefabParent: 1
---- !u!1 &1917347206165364
+--- !u!1 &1501266335363342
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4214791243575292}
-  - component: {fileID: 33565201883737414}
-  - component: {fileID: 23814382156323472}
-  - component: {fileID: 64641678456957700}
-  - component: {fileID: 114891912386551358}
+  - component: {fileID: 4761341988289818}
+  - component: {fileID: 114901920672034152}
   m_Layer: 0
-  m_Name: grimbrand - fireable
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4214791243575292
+--- !u!1 &1552146008549096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4826992277864970}
+  - component: {fileID: 33528360760484826}
+  - component: {fileID: 23689668257293560}
+  - component: {fileID: 64346579150411962}
+  m_Layer: 0
+  m_Name: grimbrand - fireable 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4761341988289818
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1917347206165364}
+  m_GameObject: {fileID: 1501266335363342}
+  m_LocalRotation: {x: 0.7671226, y: -0, z: 0.000000029802319, w: 0.64150053}
+  m_LocalPosition: {x: -0.0039, y: -0.0503, z: 0.04}
+  m_LocalScale: {x: 0.25000012, y: 0.25000003, z: 0.25000015}
+  m_Children: []
+  m_Father: {fileID: 4826992277864970}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4826992277864970
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552146008549096}
   m_LocalRotation: {x: -0.7671226, y: -0, z: -0.000000029802319, w: 0.64150053}
   m_LocalPosition: {x: 0.181, y: -0.17799991, z: -0.171}
   m_LocalScale: {x: 4, y: 4, z: 4}
-  m_Children: []
+  m_Children:
+  - {fileID: 4761341988289818}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -100.19199, y: 0, z: -0.000015258789}
---- !u!23 &23814382156323472
+--- !u!23 &23689668257293560
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1917347206165364}
+  m_GameObject: {fileID: 1552146008549096}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -78,19 +107,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33565201883737414
+--- !u!33 &33528360760484826
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1917347206165364}
+  m_GameObject: {fileID: 1552146008549096}
   m_Mesh: {fileID: 4300000, guid: 5f9b176058917ba49a8059f6da098866, type: 3}
---- !u!64 &64641678456957700
+--- !u!64 &64346579150411962
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1917347206165364}
+  m_GameObject: {fileID: 1552146008549096}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -99,12 +128,12 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 5f9b176058917ba49a8059f6da098866, type: 3}
---- !u!114 &114891912386551358
+--- !u!114 &114901920672034152
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1917347206165364}
+  m_GameObject: {fileID: 1501266335363342}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b87affe0b73a866478339e7c06fd12d7, type: 3}

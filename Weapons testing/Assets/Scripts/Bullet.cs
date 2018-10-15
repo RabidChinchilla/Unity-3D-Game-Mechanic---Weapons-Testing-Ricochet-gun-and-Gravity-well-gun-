@@ -11,13 +11,13 @@ public class Bullet : MonoBehaviour {
 
         m_bulletRigid = GetComponent<Rigidbody>();
 
-        m_bulletRigid.AddForce(transform.forward * 50.0f, ForceMode.Impulse);
+        m_bulletRigid.AddForce(transform.forward * 20.0f, ForceMode.Impulse);
 
-        //Invoke("Destroy", 100.0f);
+        Invoke("Destroy", 100.0f);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        //Destroy(gameObject);
+        Object.Destroy(gameObject, 3.0f);
 	}
 }
