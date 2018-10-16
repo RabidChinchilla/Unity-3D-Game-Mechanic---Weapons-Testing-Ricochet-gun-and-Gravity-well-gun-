@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -398,11 +398,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a71b70c1205fc73459d075543c465591, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &297658663 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1396139057865368, guid: 59fb5e4733ce4b64eb7987ba8af84023,
-    type: 2}
-  m_PrefabInternal: {fileID: 982141956}
 --- !u!1 &359973595
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,24 +697,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &911830464 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 2}
-  m_PrefabInternal: {fileID: 1884988245}
---- !u!114 &911830469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 911830464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6b70d67fb8b65d478b2290f75987524, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponSpawn: {fileID: 1893408597}
-  spawnPosition: {fileID: 0}
-  pickUp: {fileID: 297658663}
 --- !u!1001 &982141956
 Prefab:
   m_ObjectHideFlags: 0
