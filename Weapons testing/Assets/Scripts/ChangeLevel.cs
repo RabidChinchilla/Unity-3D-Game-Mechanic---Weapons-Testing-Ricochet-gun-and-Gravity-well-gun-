@@ -12,8 +12,11 @@ public class ChangeLevel : MonoBehaviour {
         
     }
 
-	void OnCollisionEnter(Collision collision)
+	void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(nextIndex);
+        if (other.name == "Player")
+        {
+            SceneManager.LoadScene(nextIndex);
+        }
     }
 }

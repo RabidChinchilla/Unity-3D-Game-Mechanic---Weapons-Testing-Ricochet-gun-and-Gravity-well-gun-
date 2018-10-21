@@ -29,5 +29,6 @@ public class GravitySpawn : MonoBehaviour {
     void OnCollisionEnter(Collision collision)
     {
         Instantiate(gravityWell, transform.position, transform.rotation);
+        Object.Destroy(gameObject);
     }
 }
