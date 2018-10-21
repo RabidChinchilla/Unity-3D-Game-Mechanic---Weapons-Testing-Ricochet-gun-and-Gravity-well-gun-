@@ -5,15 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ChangeLevel : MonoBehaviour {
 
-    private int nextIndex;
+    public int nextIndex;
 
     void start()
     {
-        //nextIndex = SceneManager.GetActiveScene;
+        
     }
 
 	void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(nextIndex);
     }
 }
