@@ -1,0 +1,3 @@
+make more puzzle levels
+stop at 2 guns
+give bouncy gun a camera fire mode so you can see your shots
