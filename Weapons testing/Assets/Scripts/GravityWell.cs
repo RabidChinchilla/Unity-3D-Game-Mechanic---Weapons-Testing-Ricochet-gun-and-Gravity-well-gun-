@@ -6,13 +6,10 @@ public class GravityWell : MonoBehaviour {
 
     public float force = -100.0f;
     public float radius = 5.0f;
-    //public float upwardsModifier = 0.0f;
-    //public ForceMode m_forceMode;
 
     void Start()
     {
-        //Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
-        //Vector3 explosionPosition = transform.position;
+        
     }
 
 	// Update is called once per frame
