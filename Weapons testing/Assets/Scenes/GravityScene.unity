@@ -672,10 +672,10 @@ RectTransform:
   m_Father: {fileID: 585549379}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -627.5, y: -334.5}
-  m_SizeDelta: {x: 295, y: 49.1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 218.53, y: 49.9}
+  m_SizeDelta: {x: 387.06, y: 72.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &537116818
 MonoBehaviour:
@@ -709,7 +709,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Move the box From the start point to the green pillar
+  m_Text: 'Pres shift to sprint
+
+    Move the box From the start point to the green pillar
+
+    Use the gravity to move the platforms so you can jump to the other platform'
 --- !u!222 &537116819
 CanvasRenderer:
   m_ObjectHideFlags: 0
