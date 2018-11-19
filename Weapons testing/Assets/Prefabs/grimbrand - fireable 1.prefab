@@ -38,6 +38,8 @@ GameObject:
   - component: {fileID: 33528360760484826}
   - component: {fileID: 23689668257293560}
   - component: {fileID: 64346579150411962}
+  - component: {fileID: 95247377053194262}
+  - component: {fileID: 114341398164637850}
   m_Layer: 0
   m_Name: grimbrand - fireable 1
   m_TagString: Untagged
@@ -52,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1501266335363342}
   m_LocalRotation: {x: 0.7671226, y: -0, z: 0.000000029802319, w: 0.64150053}
-  m_LocalPosition: {x: -0.0039, y: -0.0503, z: 0.04}
+  m_LocalPosition: {x: 0.0262, y: -0.0466, z: 0.0192}
   m_LocalScale: {x: 0.25000012, y: 0.25000003, z: 0.25000015}
   m_Children: []
   m_Father: {fileID: 4826992277864970}
@@ -65,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1552146008549096}
   m_LocalRotation: {x: -0.7671226, y: -0, z: -0.000000029802319, w: 0.64150053}
-  m_LocalPosition: {x: 0.181, y: -0.17799991, z: -0.171}
+  m_LocalPosition: {x: 0.181, y: -0.203, z: 0.517}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 4761341988289818}
@@ -128,6 +130,35 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 5f9b176058917ba49a8059f6da098866, type: 3}
+--- !u!95 &95247377053194262
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552146008549096}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 31512f83b27e2e346b5664a7f7cc197b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114341398164637850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552146008549096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88397734598fd43bf6d8c22505d0c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114901920672034152
 MonoBehaviour:
   m_ObjectHideFlags: 1
