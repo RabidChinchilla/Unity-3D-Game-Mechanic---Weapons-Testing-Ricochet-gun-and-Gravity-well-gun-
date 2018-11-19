@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Target : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    // Use this for initialization
+    void Start () {
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -18,6 +18,7 @@ public class Target : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Projectile")
         {
+            Score.scoreValue += 100;
             Destroy(collision.gameObject);
             Destroy(this.gameObject);
         }

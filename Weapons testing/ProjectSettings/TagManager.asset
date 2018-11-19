@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Projectile
   - Pick Up
+  - Score
+  - Box
   layers:
   - Default
   - TransparentFX
