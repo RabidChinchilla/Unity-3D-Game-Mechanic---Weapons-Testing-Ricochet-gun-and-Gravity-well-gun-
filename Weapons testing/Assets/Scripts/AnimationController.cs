@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimationController : MonoBehaviour {
 
     Animator anim;
-    bool isFiring = false;
+    bool isFiring;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +14,7 @@ public class AnimationController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonUp(0))
         {
             anim.SetBool("IsFiring", true);
         }
