@@ -100,9 +100,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!82 &82714050324865896
 AudioSource:
   m_ObjectHideFlags: 1
@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a51258cdbf4d3a542b1bf563c2f71221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletSpeed: 25
 --- !u!135 &135548384121168728
 SphereCollider:
   m_ObjectHideFlags: 1

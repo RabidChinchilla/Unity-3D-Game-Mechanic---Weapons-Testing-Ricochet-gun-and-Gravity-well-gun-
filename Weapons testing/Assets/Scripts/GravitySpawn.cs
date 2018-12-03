@@ -5,7 +5,7 @@ using UnityEngine;
 public class GravitySpawn : MonoBehaviour {
 
     public GameObject gravityWell;
-
+    public float bulletSpeed = 20.0f;
     private Rigidbody m_bulletRigid;
 
     // Use this for initialization
@@ -14,7 +14,7 @@ public class GravitySpawn : MonoBehaviour {
 
         m_bulletRigid = GetComponent<Rigidbody>();
 
-        m_bulletRigid.AddForce(transform.forward * 20.0f, ForceMode.Impulse);
+        m_bulletRigid.AddForce(transform.forward * bulletSpeed, ForceMode.Impulse);
 
         Invoke("Destroy", 100.0f);
     }

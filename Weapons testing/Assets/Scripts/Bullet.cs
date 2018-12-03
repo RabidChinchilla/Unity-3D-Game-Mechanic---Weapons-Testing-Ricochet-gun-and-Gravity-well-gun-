@@ -5,13 +5,14 @@ using UnityEngine;
 public class Bullet : MonoBehaviour {
 
     private Rigidbody m_bulletRigid;
+    public float bulletSpeed = 20.0f;
 
 	// Use this for initialization
 	void Start () {
 
         m_bulletRigid = GetComponent<Rigidbody>();
 
-        m_bulletRigid.AddForce(transform.forward * 20.0f, ForceMode.Impulse);
+        m_bulletRigid.AddForce(transform.forward * bulletSpeed, ForceMode.Impulse);
 
         Invoke("Destroy", 200.0f);
 	}

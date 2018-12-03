@@ -222,3 +222,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityWell: {fileID: 1395564592798002, guid: 37019086e0bf7ff428fcf3944cb970e0,
     type: 2}
+  bulletSpeed: 40

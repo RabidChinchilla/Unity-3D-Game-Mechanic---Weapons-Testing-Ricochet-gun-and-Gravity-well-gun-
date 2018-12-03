@@ -32,7 +32,7 @@ GameObject:
   - component: {fileID: 11400004}
   m_Layer: 9
   m_Name: RigidBodyFPSController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,7 +58,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -0.19, y: 0.96, z: 7.29}
+  m_LocalPosition: {x: -0.19, y: 2.4, z: 7.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -79,7 +79,7 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
+    width: 0.82
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -94,7 +94,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
+  m_HDR: 1
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
@@ -338,7 +338,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1390361962340508}
   m_LocalRotation: {x: 0.7671226, y: -0, z: 0.000000029802319, w: 0.64150053}
-  m_LocalPosition: {x: 0.0262, y: -0.0466, z: 0.0192}
+  m_LocalPosition: {x: -0.0046, y: -0.0466, z: 0.0192}
   m_LocalScale: {x: 0.25000012, y: 0.25000003, z: 0.25000015}
   m_Children: []
   m_Father: {fileID: 4953546518966020}
@@ -350,14 +350,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1715451935060864}
-  m_LocalRotation: {x: -0.7671226, y: -0, z: -0.000000029802319, w: 0.64150053}
-  m_LocalPosition: {x: 0.181, y: -0.203, z: 0.517}
+  m_LocalRotation: {x: -0.7671197, y: -0.0020756156, z: -0.0017357452, w: 0.64149827}
+  m_LocalPosition: {x: 0.113, y: -0.201, z: 0.528}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 4510781493228630}
   m_Father: {fileID: 400000}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -100.19199, y: 0, z: -0.000015258789}
+  m_LocalEulerAnglesHint: {x: -100.19199, y: 0, z: -0.30999756}
 --- !u!23 &23975473137133350
 MeshRenderer:
   m_ObjectHideFlags: 1
