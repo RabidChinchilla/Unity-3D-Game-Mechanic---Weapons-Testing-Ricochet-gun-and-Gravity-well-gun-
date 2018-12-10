@@ -9,46 +9,47 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1321876736164068}
+  m_RootGameObject: {fileID: 1901782664155344}
   m_IsPrefabParent: 1
---- !u!1 &1321876736164068
+--- !u!1 &1901782664155344
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4255418823548334}
-  - component: {fileID: 33156043488146540}
-  - component: {fileID: 23744489500963056}
-  - component: {fileID: 114198323772899178}
-  - component: {fileID: 64748637786508236}
+  - component: {fileID: 4436933235130082}
+  - component: {fileID: 33055392202764886}
+  - component: {fileID: 23915321533431660}
+  - component: {fileID: 54377208842594226}
+  - component: {fileID: 64449261614098512}
+  - component: {fileID: 114245674489259548}
   m_Layer: 0
-  m_Name: Target
+  m_Name: target fragment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4255418823548334
+--- !u!4 &4436933235130082
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1321876736164068}
-  m_LocalRotation: {x: 0.16992792, y: 0.6863851, z: -0.6863851, w: 0.16992791}
-  m_LocalPosition: {x: 29.22, y: 4.32, z: -28.5}
-  m_LocalScale: {x: 1, y: 0.09999998, z: 1}
+  m_GameObject: {fileID: 1901782664155344}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 5.2270403, y: 0.00000166893, z: -21.911552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 27.809998}
---- !u!23 &23744489500963056
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23915321533431660
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1321876736164068}
+  m_GameObject: {fileID: 1901782664155344}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -78,19 +79,34 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33156043488146540
+--- !u!33 &33055392202764886
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1321876736164068}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64748637786508236
+  m_GameObject: {fileID: 1901782664155344}
+  m_Mesh: {fileID: 4300000, guid: cc1ee75005b671649aac0cf0b520377e, type: 3}
+--- !u!54 &54377208842594226
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1901782664155344}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!64 &64449261614098512
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1321876736164068}
+  m_GameObject: {fileID: 1901782664155344}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -98,17 +114,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114198323772899178
+  m_Mesh: {fileID: 4300000, guid: cc1ee75005b671649aac0cf0b520377e, type: 3}
+--- !u!114 &114245674489259548
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1321876736164068}
+  m_GameObject: {fileID: 1901782664155344}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d39283e3072dd4db4bfc08aa1b7136, type: 3}
+  m_Script: {fileID: 11500000, guid: 683380c57867ac849a511e62b55fe882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionPoint: {fileID: 1121755726395204, guid: 7856f7ec6bcd513449cb18b7adb84640,
-    type: 2}

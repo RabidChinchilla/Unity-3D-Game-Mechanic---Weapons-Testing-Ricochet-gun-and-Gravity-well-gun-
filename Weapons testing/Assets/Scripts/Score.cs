@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour {
 
+    public GameObject door;
     public static int scoreValue = 0;
     Text scoreText;
 
@@ -16,5 +17,10 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         scoreText.text = "Score: " + scoreValue;
+
+        if (scoreValue == 1100)
+        {
+            Destroy(door);
+        }
 	}
 }

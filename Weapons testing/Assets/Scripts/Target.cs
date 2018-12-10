@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class Target : MonoBehaviour {
 
-    // Use this for initialization
-    void Start () {
-        
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject explosionPoint;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -22,5 +14,7 @@ public class Target : MonoBehaviour {
             Destroy(collision.gameObject);
             Destroy(this.gameObject);
         }
+
+        Instantiate(explosionPoint, transform.position, transform.rotation);
     }
 }
