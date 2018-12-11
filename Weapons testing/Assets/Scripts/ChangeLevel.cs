@@ -20,7 +20,7 @@ public class ChangeLevel : MonoBehaviour {
         {
             SceneManager.LoadScene(nextIndex);
         }
-        else if (other.name == "Box")
+        else if (other.tag == "Box")
         {
             box.transform.position = originalPosition;
         }
