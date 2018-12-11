@@ -10,7 +10,7 @@ public class GravityWell : MonoBehaviour {
 
     void Start()
     {
-        
+        Object.Destroy(gameObject, 3.0f);
     }
 
 	// Update is called once per frame
@@ -30,6 +30,6 @@ public class GravityWell : MonoBehaviour {
             }
         }
 
-        Object.Destroy(gameObject, 3.0f);
+        //Object.Destroy(gameObject, 3.0f);
     }
 }

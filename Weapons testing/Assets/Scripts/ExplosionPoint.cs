@@ -28,6 +28,8 @@ public class ExplosionPoint : MonoBehaviour {
                 m_rigidBody.AddExplosionForce(force, explosionPosition, radius);
             }
         }
+
+        Object.Destroy(gameObject, 3.0f);
     }
 	
 }

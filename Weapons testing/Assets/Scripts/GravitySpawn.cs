@@ -16,13 +16,14 @@ public class GravitySpawn : MonoBehaviour {
 
         m_bulletRigid.AddForce(transform.forward * bulletSpeed, ForceMode.Impulse);
 
-        Invoke("Destroy", 100.0f);
+        //Invoke("Destroy", 100.0f);
+        Object.Destroy(gameObject, 3.0f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Object.Destroy(gameObject, 3.0f);
+        //Object.Destroy(gameObject, 3.0f);
     }
 
 
