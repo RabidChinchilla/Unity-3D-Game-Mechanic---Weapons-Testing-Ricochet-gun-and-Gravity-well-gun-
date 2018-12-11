@@ -18,7 +18,7 @@ public class Score : MonoBehaviour {
 	void Update () {
         scoreText.text = "Score: " + scoreValue;
 
-        if (scoreValue == 1100)
+        if (scoreValue == 1200)
         {
             Destroy(door);
         }

@@ -6,7 +6,7 @@ public class targetFragment : MonoBehaviour {
 
 	
 	// Update is called once per frame
-	void Update () {
+	void Start () {
         Object.Destroy(gameObject, 3.0f);
     }
 }

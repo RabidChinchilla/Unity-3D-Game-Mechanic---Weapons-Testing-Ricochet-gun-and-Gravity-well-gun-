@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33443546245669806}
   - component: {fileID: 23175118683815004}
   - component: {fileID: 136130800013693122}
-  - component: {fileID: 114929135277652858}
+  - component: {fileID: 114805933184622132}
   m_Layer: 0
   m_Name: Level change platform
   m_TagString: Untagged
@@ -85,7 +85,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1089058461712544}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114929135277652858
+--- !u!114 &114805933184622132
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -93,10 +93,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1089058461712544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88a15e39e3342c24cbeeeea8fd6477b2, type: 3}
+  m_Script: {fileID: 11500000, guid: dc0653f9315c1154ca2b6797912eccfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextIndex: 1
+  nextIndex: 0
 --- !u!136 &136130800013693122
 CapsuleCollider:
   m_ObjectHideFlags: 1
