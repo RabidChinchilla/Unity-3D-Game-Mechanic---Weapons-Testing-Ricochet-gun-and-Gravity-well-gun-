@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44897783, g: 0.49904275, b: 0.5757103, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -935,6 +935,7 @@ GameObject:
   - component: {fileID: 578914087}
   - component: {fileID: 578914086}
   - component: {fileID: 578914090}
+  - component: {fileID: 578914091}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -1003,8 +1004,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 578914085}
   m_LocalRotation: {x: 0.29626605, y: -0, z: -0, w: 0.9551055}
-  m_LocalPosition: {x: 7.62, y: 8.09, z: -26.786}
-  m_LocalScale: {x: 8.043342, y: 2.5492473, z: 0.21516615}
+  m_LocalPosition: {x: 9.205, y: 8.09, z: -26.78}
+  m_LocalScale: {x: 4.873384, y: 2.5492473, z: 0.21516615}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 28
@@ -1023,6 +1024,24 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &578914091
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 578914085}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 668aa25621b41d04992f464e624a9cae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &635221091
 Prefab:
   m_ObjectHideFlags: 0
@@ -1758,6 +1777,7 @@ GameObject:
   - component: {fileID: 962865248}
   - component: {fileID: 962865247}
   - component: {fileID: 962865246}
+  - component: {fileID: 962865250}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -1828,12 +1848,30 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 962865245}
   m_LocalRotation: {x: 0.7067426, y: -0.12186376, z: -0.122456945, w: 0.6860528}
-  m_LocalPosition: {x: -14.958, y: 8.66, z: -20.943}
+  m_LocalPosition: {x: -14.95, y: 8.66, z: -20.94}
   m_LocalScale: {x: 0.19703218, y: 2.8177524, z: 1.4177699}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 109.968994, y: 85.184, z: 85.134995}
+--- !u!95 &962865250
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962865245}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3df47d4d6f676154f9230543d17c0022, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &968120303
 GameObject:
   m_ObjectHideFlags: 0
