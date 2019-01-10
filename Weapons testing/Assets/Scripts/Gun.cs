@@ -15,6 +15,7 @@ public class Gun : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonDown(0))
         {
+            //create the bullet on a mouse down
             Instantiate(bulletPrefab, transform.position + transform.forward * 3.0f, transform.rotation);
         }
 	}

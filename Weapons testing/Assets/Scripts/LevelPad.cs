@@ -11,6 +11,7 @@ public class LevelPad : MonoBehaviour {
     {
         if (other.name == "Player")
         {
+            //if the player collides with it change the scene
             SceneManager.LoadScene(nextIndex);
         }
     }

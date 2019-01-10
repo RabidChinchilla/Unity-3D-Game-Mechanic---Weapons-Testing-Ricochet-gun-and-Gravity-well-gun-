@@ -15,6 +15,7 @@ public class Platform : MonoBehaviour {
     {
         if (collision.gameObject.tag == "PlatformPoint")
         {
+            //when the platform collides with the point make it kinematic to stop it moving
             rb.isKinematic = true;
         }
         

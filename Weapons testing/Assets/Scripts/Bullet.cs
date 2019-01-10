@@ -9,12 +9,12 @@ public class Bullet : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+        //gets the attached rigid body
         m_bulletRigid = GetComponent<Rigidbody>();
-
+        //adds force to the rigid body 
         m_bulletRigid.AddForce(transform.forward * bulletSpeed, ForceMode.Impulse);
 
-        //Invoke("Destroy", 200.0f);
+        //destroys the object after a set time
         Object.Destroy(gameObject, 5.0f);
     }
 	

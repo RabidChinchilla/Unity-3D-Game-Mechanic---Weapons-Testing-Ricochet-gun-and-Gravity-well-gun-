@@ -13,18 +13,22 @@ public class ChangeLevel : MonoBehaviour {
 
     void Start()
     {
+        //gets the original position of the objects and stores it
         originalPosition = box.transform.position;
         PlayerPosition = Player.transform.position;
     }
 
     void OnTriggerEnter(Collider other)
     {
+        //if an object enters the trigger
         if (other.name == "Player")
         {
+            //moves player back to their original location
             other.transform.position = PlayerPosition;
         }
         else if (other.tag == "Box")
         {
+            //moves box back to its original location
             box.transform.position = originalPosition;
         }
     }

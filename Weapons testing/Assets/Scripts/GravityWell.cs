@@ -29,7 +29,5 @@ public class GravityWell : MonoBehaviour {
                 m_rigidBody.AddExplosionForce(force, explosionPosition, radius);
             }
         }
-
-        //Object.Destroy(gameObject, 3.0f);
     }
 }

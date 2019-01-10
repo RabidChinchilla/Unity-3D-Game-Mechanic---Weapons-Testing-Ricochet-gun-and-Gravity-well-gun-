@@ -10,6 +10,7 @@ public class OnCollisionDestroy : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Box")
         {
+            //when the box reaches its goal then remove the door preventing progress
             Destroy(barrier);
         }
     }

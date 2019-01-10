@@ -11,15 +11,18 @@ public class Score : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        //set the text box
         scoreText = GetComponent<Text>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        //set the contents of the textbox to a string and a int variable that can be changed
         scoreText.text = "Score: " + scoreValue;
 
         if (scoreValue == 1200)
         {
+            //when a minimum score is reached remove the door
             Destroy(door);
         }
 	}

@@ -11,6 +11,7 @@ public class PlatformReset : MonoBehaviour {
     {
         if (other.name == "Player")
         {
+            //when the player falls out of the level reload it
             SceneManager.LoadScene(nextIndex);
         }
     }

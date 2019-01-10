@@ -11,6 +11,7 @@ public class resetbox : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //get original positon of the box
         originalPosition = box.transform.position;
     }
 
@@ -18,6 +19,7 @@ public class resetbox : MonoBehaviour
     {
         if (other.tag == "Box")
         {
+            //move the box back to its original position
             box.transform.position = originalPosition;
         }
     }

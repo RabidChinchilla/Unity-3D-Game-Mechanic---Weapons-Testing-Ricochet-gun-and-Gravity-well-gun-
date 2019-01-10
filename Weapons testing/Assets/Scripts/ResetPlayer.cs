@@ -10,6 +10,7 @@ public class ResetPlayer : MonoBehaviour {
     {
         if (other.gameObject == player)
         {
+            //move the player to a specific position when they enter a trigger
             other.transform.position = new Vector3(0, 4, 7);
         }
     }
