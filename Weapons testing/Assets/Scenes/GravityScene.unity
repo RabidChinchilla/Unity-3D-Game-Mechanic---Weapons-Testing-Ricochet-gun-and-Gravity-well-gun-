@@ -447,7 +447,7 @@ Prefab:
     - target: {fileID: 114805933184622132, guid: dc58ad0a14f967c4c835016dc5fd274f,
         type: 2}
       propertyPath: nextIndex
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 136130800013693122, guid: dc58ad0a14f967c4c835016dc5fd274f,
         type: 2}
