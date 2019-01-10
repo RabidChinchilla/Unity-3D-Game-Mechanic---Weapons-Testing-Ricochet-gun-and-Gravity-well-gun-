@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GravityScene.unity
     guid: f2c7f017e268f314cb6465b055fe0555
   - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: bbca4e9e1e818e34c881808b1caf3262
+  - enabled: 0
     path: Assets/Scenes/End of Demo.unity
     guid: 2051294d5d6305642964a178485ffb95
   m_configObjects: {}
