@@ -9,6 +9,8 @@ TagManager:
   - Score
   - Box
   - PlatformPoint
+  - gun1
+  - gun2
   layers:
   - Default
   - TransparentFX
