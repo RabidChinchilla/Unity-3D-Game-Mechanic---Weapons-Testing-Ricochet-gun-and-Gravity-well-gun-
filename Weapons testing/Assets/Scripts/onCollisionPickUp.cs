@@ -21,22 +21,25 @@ public class onCollisionPickUp : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision)
 	{
-		//Debug.Log("Collision detected");
-		item.SetActive(true);
-
-		if (this.gameObject.tag == "gun1")
+		if (collision.gameObject.tag == "Player")
 		{
-			weaponSwap.gun1Obtained = true;
-			Debug.Log("Weapon 1 obtained");
+			//Debug.Log("Collision detected");
+			item.SetActive(true);
+
+			if (this.gameObject.tag == "gun1")
+			{
+				weaponSwap.gun1Obtained = true;
+				Debug.Log("Weapon 1 obtained");
+			}
+
+			if (this.gameObject.tag == "gun2")
+			{
+				weaponSwap.gun2Obtained = true;
+				Debug.Log("Weapon 2 obtained");
+			}
+
+
+			Destroy(this.gameObject);
 		}
-
-		if (this.gameObject.tag == "gun2")
-		{
-			weaponSwap.gun2Obtained = true;
-			Debug.Log("Weapon 2 obtained");
-		}
-
-
-		Destroy(this.gameObject);
 	}
 }
