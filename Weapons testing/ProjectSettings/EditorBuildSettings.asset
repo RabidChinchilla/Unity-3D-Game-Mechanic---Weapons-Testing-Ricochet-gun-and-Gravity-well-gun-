@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 737d8f73c0ceb9d4181171690b3a0a68
   - enabled: 1
+    path: Assets/Scenes/updated demo level.unity
+    guid: a9695491939fd8b4a8807c2221c83736
+  - enabled: 1
     path: Assets/Scenes/End.unity
     guid: bbca4e9e1e818e34c881808b1caf3262
   - enabled: 0
