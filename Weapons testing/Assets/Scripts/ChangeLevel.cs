@@ -15,7 +15,8 @@ public class ChangeLevel : MonoBehaviour {
     {
         //gets the original position of the objects and stores it
         originalPosition = box.transform.position;
-        PlayerPosition = Player.transform.position;
+        //PlayerPosition = Player.transform.position;
+        PlayerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
     }
 
     void OnTriggerEnter(Collider other)
@@ -24,7 +25,7 @@ public class ChangeLevel : MonoBehaviour {
         if (other.name == "Player")
         {
             //moves player back to their original location
-            other.transform.position = PlayerPosition;
+            SceneManager.LoadScene(nextIndex);
         }
         else if (other.tag == "Box")
         {
