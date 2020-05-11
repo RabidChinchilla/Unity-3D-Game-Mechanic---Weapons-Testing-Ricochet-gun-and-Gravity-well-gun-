@@ -34,6 +34,7 @@ public class onCollisionPickUp : MonoBehaviour {
 
 			if (this.gameObject.tag == "gun2")
 			{
+				weaponSwap.gun1.SetActive(false);
 				weaponSwap.gun2Obtained = true;
 				Debug.Log("Weapon 2 obtained");
 			}
