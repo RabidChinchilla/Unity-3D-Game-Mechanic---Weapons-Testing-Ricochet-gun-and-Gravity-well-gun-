@@ -8,6 +8,6 @@ public class PlayButton : MonoBehaviour {
     public void LoadLevel()
     {
         //Load a specific level by name
-        SceneManager.LoadScene("BouncyScene");
+        SceneManager.LoadScene("updated demo level");
     }
 }
